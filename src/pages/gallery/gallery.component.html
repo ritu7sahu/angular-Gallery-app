@@ -1,0 +1,11 @@
+<p>gallery works!</p>
+<app-image-card *ngFor="let image of images" [images]="image"></app-image-card>
+<div class="loading" *ngIf="loading$ | async">
+  <h1>Please wait...</h1>
+</div>
+<div class="buttons">
+  <button class="prev" [disabled]="offset == 1" (click)="previous_images()">
+    Previous
+  </button>
+  <button class="next" (click)="next_images()">Next</button>
+</div>

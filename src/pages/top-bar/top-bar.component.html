@@ -1,0 +1,36 @@
+<a>
+  <h3>Gallery App</h3>
+</a>
+<div class="menuItems">
+  <ul class="menu">
+    <li>
+      <a appHighlightMenu class="nav-link" [routerLink]="['home']"> Home </a>
+    </li>
+    <li>
+      <a appHighlightMenu class="nav-link" [routerLink]="['gallery']">
+        Gallery
+      </a>
+    </li>
+    <li>
+      <a appHighlightMenu class="nav-link" [routerLink]="['about']"> About </a>
+    </li>
+    <li>
+      <a appHighlightMenu class="nav-link" [routerLink]="['current-users']">
+        Users
+      </a>
+    </li>
+    <li>
+      <a appHighlightMenu class="nav-link" [routerLink]="['contact']">
+        Contact Us
+      </a>
+    </li>
+    <li>
+      <a appHighlightMenu class="nav-link" (click)="logout()"> Logout </a>
+    </li>
+  </ul>
+</div>
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->

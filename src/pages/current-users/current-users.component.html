@@ -1,0 +1,8 @@
+<app-address-card *ngFor="let user of users" [users]="user"> </app-address-card>
+<div class="loading" *ngIf="loading$ | async">
+  <h1>Please wait...</h1>
+</div>
+<div class="buttons">
+  <button class="prev" (click)="previous_users()">Previous</button>
+  <button class="next" (click)="next_users()">Next</button>
+</div>

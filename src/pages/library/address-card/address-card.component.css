@@ -1,0 +1,13 @@
+.imageCard {
+  background: #efeaea;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  margin-top: 5px;
+  justify-content: space-around;
+}
+img {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+}
